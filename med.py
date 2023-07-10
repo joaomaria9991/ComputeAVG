@@ -21,7 +21,7 @@ def elementwise_multiply(arr1, arr2):
 
 def calculate_average(arr):
     total = sum(arr)
-    average = total / 42
+    average = total / len(arr)
     return average
 
 
